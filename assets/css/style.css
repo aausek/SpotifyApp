@@ -1,6 +1,9 @@
-* {
-    box-sizing: border-box;
-}
+/* Global */
+html{
+    min-height: 100%;
+    overflow: hidden;
+  }
+
 .navbar-nav {
     float:none;
     margin:0 auto;
@@ -10,15 +13,62 @@
 
 .navbar-nav > li {
     display: inline-block;
-    float:none;
+    float: none;
 }
 
-.jumbotron {
-    background-color:#1ED760 !important;
+.container-fluid {
+    background-color:#1DB954 !important;
     min-height: 580px;
     margin-bottom: -32px; 
 }
 
-h1, p{
+p {
     color: #ffffff;
 }
+
+body {
+    height: calc(100vh - 8em);
+    padding: 4em; 
+    /* display: flex;
+    justify-content: center; */
+}
+
+.animated-typewriter {
+    position: relative;
+    top: 50%;  
+    width: 100%;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 5em;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;    
+}
+  
+  /* Animation */
+.animated-typewriter {
+    animation: typewriter 4s steps(50) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {width: 0;}
+    to {width: 100%;}
+}
+
+@keyframes blinkTextCursor {
+    from {border-right-color: #000000;}
+    to {border-right-color: transparent;}
+}
+
+
+
+
+
+
+
+
+
+
+
+

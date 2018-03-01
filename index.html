@@ -11,9 +11,10 @@
     <link rel="icon" href="assets/images/spotifyicon.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/lux/bootstrap.min.css" 
+     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/lux/bootstrap.min.css"
     <link href="https://maxcdn.bootstrapcdn.resetootswatch/4.0.0-beta.3/lux/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-XI0PIujkSZEzZ5m8WTEm+krRuIpfO+vHrEznaIrhTAkbrbIvfs11kzCqUarPR7yn" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
 
 </head>
 <body>
@@ -46,13 +47,20 @@
             </form> -->
             </div>
         </nav>
-            <div class="jumbotron">
-                <h1 class="display-3" align="center">Welcome to Tunnel</h1>
-                <p class="lead" align="center">Display Spotify API results here</p>
+            <div class="container-fluid">
+                <h1 class="animated-typewriter">Welcome to Tunnel</h1><br>
+                <p class="lead" align="center"><u>Display Spotify API results here</u></p>
+                <form>
+                  <div class="form-group">
+                    <span class="badge badge-primary">Search Term</span>
+                    <div class="form-group has-success"><br>
+                      <input type="text" placeholder="Search for some cool tunes" class="form-control is-valid" id="inputValid">
+                    </div>
+                  </div>
+                </form>
                 <hr class="my-4">
-                <p></p>
                 <p class="lead" align="center">
-                <a class="btn btn-success" href="#" role="button">Fetch API results</a>
+                <button type="button" class="btn btn-primary">Get Spotify Results</button>
                 </p>
             </div>
     <!-- </div> -->
