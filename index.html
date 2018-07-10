@@ -1,69 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
     <title>Tunnel</title>
-
     <link rel="icon" href="assets/images/spotifyicon.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reset.css">
-     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/lux/bootstrap.min.css"
-    <link href="https://maxcdn.bootstrapcdn.resetootswatch/4.0.0-beta.3/lux/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-XI0PIujkSZEzZ5m8WTEm+krRuIpfO+vHrEznaIrhTAkbrbIvfs11kzCqUarPR7yn" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/lux/bootstrap.min.css" <link href="https://maxcdn.bootstrapcdn.resetootswatch/4.0.0-beta.3/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-XI0PIujkSZEzZ5m8WTEm+krRuIpfO+vHrEznaIrhTAkbrbIvfs11kzCqUarPR7yn" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
-
 </head>
-<body>
-    
-    <!-- <div class="container"> -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="#">Tunnel</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav mr-auto">
+<body>
+    <!-- <div class="container"> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Tunnel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">2nd page?</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">3rd page?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">4th page?</a>
-                </li>
-                </ul>
+            </ul>
             <!-- <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" placeholder="Search" type="text">
             <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
             </form> -->
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <h1 class="animated-typewriter">Welcome to Tunnel</h1>
+        <br>
+        <p class="lead" align="center"><u>Display Spotify API results here</u></p>
+        <form>
+            <div class="form-group">
+                <span class="badge badge-primary">Search Term</span>
+                <div class="form-group has-success">
+                    <br>
+                    <input type="text" placeholder="Search for some cool tunes" class="form-control is-valid" id="inputValid">
+                </div>
             </div>
-        </nav>
-            <div class="container-fluid">
-                <h1 class="animated-typewriter">Welcome to Tunnel</h1><br>
-                <p class="lead" align="center"><u>Display Spotify API results here</u></p>
-                <form>
-                  <div class="form-group">
-                    <span class="badge badge-primary">Search Term</span>
-                    <div class="form-group has-success"><br>
-                      <input type="text" placeholder="Search for some cool tunes" class="form-control is-valid" id="inputValid">
-                    </div>
-                  </div>
-                </form>
-                <hr class="my-4">
-                <p class="lead" align="center">
-                <button type="button" class="btn btn-primary">Get Spotify Results</button>
-                </p>
-            </div>
+        </form>
+        <hr class="my-4">
+        <p class="lead" align="center">
+            <button type="button" class="btn btn-primary">Get Spotify Results</button>
+        </p>
+    </div>
     <!-- </div> -->
-
 </body>
+
 </html>
